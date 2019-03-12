@@ -1,0 +1,284 @@
+/* ---- iPad Pro and Desktop ---- */
+
+@media screen and ( min-width : 769px ) {
+    video.video-small {
+        display: none;
+    }
+    
+    video.video-large {
+        display: inline-block;
+    }
+    
+    #ecc4 {
+    height: 210px;
+    margin-top: 15%;
+	}
+	
+	#ecc2 {
+    padding-left: 0;
+    padding-right: 0;
+    height: 220px;
+	}
+	
+	#ecc3 {
+    height: 220px;
+	}
+      
+}
+
+
+
+/* ---- iPhone 5 to iPad ---- */
+
+@media screen and ( max-width : 768px ) {
+	 #hero h1 {
+        font-size: 6rem;
+    }
+    
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .row, .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .navbar-brand {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .navbar-nav li a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .navbar-inverse .navbar-collapse.in {
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    }
+    
+    .navbar-brand, 
+    .navbar-inverse .navbar-brand {
+        height: auto;
+        line-height: 1;
+        margin-top: 5px;
+    }
+    
+    video.video-small {
+        display: inline-block;
+    }
+    
+    video.video-large {
+        display: none;
+    }
+    
+    .video-image img {
+        width: auto;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+    #music {
+        background-attachment: scroll;
+    }
+    
+    .about-wrapper {
+        background-size: auto;
+        background-repeat: repeat;
+    }
+	
+	#about-p2 {
+		text-align: justify;
+	}
+	
+    
+}
+
+/* ---- iPhone 6 to iPad ---- */
+
+@media screen and ( max-width : 768px ) and ( min-width : 375px ) {
+    .about-header-banner .live-badge {
+        width: 108px;
+        display: block;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+
+}
+
+/* ---- iPhone 5 to iPhone 6 Plus ---- */
+
+@media screen and ( max-width : 665px ) and ( min-width : 320px ) {
+    .about-header-banner h2 {
+        margin-top: 40%;
+    }
+    
+   	#pc{
+		font-size: 4.5em;
+	}
+	
+	#ecc2 {
+		    padding-left: 25%;
+			padding-bottom: 3%;
+	}
+    
+        #ecc3 {
+    height: 190px;
+    margin-left: 5%;
+    }
+    
+    #ecc4 {
+    height: 190px;
+    margin-top: 0;
+    margin-left: 1%;
+    }
+    
+    	#ecc3 {
+    height: 180px;
+    }
+	
+	#ecc4 {
+    height: 190px;
+     margin-top: 0; 
+    }
+}
+
+/* ---- iPhone 6 Plus ---- */
+
+@media screen and ( max-width : 414px ) {
+    #subscribe .subscribe-btn .btn {
+        margin-left: auto;
+        margin-right: auto;
+        float: none !important;
+        display: block;
+        width: 100%;
+    }
+    
+    #subscribe-social li {
+        padding-right: 1.2em;
+        padding-left: 1.2em;
+    }
+    
+    #subscribe-social .fa {
+        font-size: 4.2rem;
+    }
+    
+    .about-header-banner h2 {
+        font-size: 4.5em;
+    }
+    
+    #about .about-timeline-content .about-call a {
+        width: 50%;
+    }
+    
+    #subscribe h3 {
+        font-size: 5.8rem;
+    }
+    
+    footer {
+        font-size: 1.4rem;
+    }
+    
+    footer .list-inline li {
+        display: block;
+        margin-bottom: 1em;
+    }
+    
+    footer li.footer-matters {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+}
+
+
+/* ---- iPhone 6 ---- */
+
+@media screen and ( max-width : 375px ) {
+    
+    .about-header-banner h2 {
+        font-size: 4em;
+    }
+    
+    #about .about-timeline-content .about-call a {
+        width: 58%;
+    }
+    
+    #subscribe h3 {
+        font-size: 5.2rem;
+    }
+    
+    #subscribe-social li {
+        padding-right: 0.9em;
+        padding-left: 0.9em;
+    }
+    
+    #subscribe-social .fa {
+        font-size: 3.8rem;
+    }
+    
+    footer {
+        font-size: 1.3rem;
+    }
+    
+}
+
+
+/* ---- iPhone 5 ---- */
+
+@media screen and ( max-width : 320px ) {
+    
+    #hero .see-more {
+    position: absolute;
+    top: 140%;
+    }
+    
+    #about .about-timeline-content .about-call a {
+        width: 65%;
+    }
+    
+    #ecc4 {
+    height: 190px;
+     margin-top: 0; 
+    }
+    
+    #ecc3 {
+    height: 190px;
+    }
+    
+    #subscribe h3 {
+        font-size: 4.5rem;
+    }
+    
+    #subscribe-social li {
+        padding-right: 0.6em;
+        padding-left: 0.6em;
+    }
+    
+    #subscribe-social .fa {
+        font-size: 3.6rem;
+    }
+    
+    footer {
+        font-size: 1.1rem;
+    }
+    
+ 
+    
+}
+
+
+
+
+
+
